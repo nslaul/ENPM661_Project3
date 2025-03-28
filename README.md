@@ -101,7 +101,7 @@ This project implements the A\* search algorithm for a mobile robot that navigat
 
 - **Neeraj Laul** – Directory ID: nslaul, UID: 120518973  
 - **Kirti Kishore** – Directory ID: XXXXX, UID: XXXXX  
-- **Dayanidhi Kandade** – Directory ID: XXXXX, UID: XXXXX
+- **Dayanidhi Kandade** – Directory ID: dotsv, UID: 120426711
 
 ## Files Included
 
