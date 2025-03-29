@@ -969,7 +969,16 @@ class aStar:
         neighbors = []
         for action in actions:
             newState = action(state, self.step_size)
-            x, y, _ = newState
+            # Uncomment this and comment the earlier loop for treating edge cases near the boundaries.
+            #epsilon = 0.2
+            
+            # if (
+            #     0 - epsilon <= x < 60 + epsilon
+            #     and 0 - epsilon <= y < 25 + epsilon
+            #     and not self.mapEnv.halfPlanes(newState[0], newState[1])
+            # ):
+            #     neighbors.append(newState)
+            # x, y, _ = newState
             if (
                 0 <= x < 60
                 and 0 <= y < 25
